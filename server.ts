@@ -58,3 +58,6 @@ if (moduleFilename === __filename || moduleFilename.includes('iisnode')) {
 }
 
 export * from './src/main.server';
+
+// fixes prerendering
+export default bootstrap;
