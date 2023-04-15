@@ -140,7 +140,9 @@
           "builder": "@nguniversal/builders:prerender",
           "options": {
             "routes": [
-              "/"
+              "/",
+              "/about",
+              "/todos"
             ]
           },
           "configurations": {
