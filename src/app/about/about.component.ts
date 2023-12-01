@@ -13,5 +13,5 @@ import { MarkdownModule } from 'ngx-markdown';
   styleUrls: ['./about.component.css']
 })
 export default class AboutComponent {
-
+  readonly readmePath = 'https://raw.githubusercontent.com/jfcere/angular-v16-universal-standalone/ngx-markdown-issue-493/README.md';
 }
